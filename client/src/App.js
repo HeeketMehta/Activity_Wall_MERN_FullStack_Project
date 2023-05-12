@@ -3,12 +3,12 @@ import './App.css';
 import { Container, AppBar, Typography, Grid, Grow } from '@material-ui/core';
 
 import memories from './images/memories.png';
-import Posts from './components/posts/post.js';
-import Form from './components/form/form.js';
+import Posts from './components/Posts/Post.js';
+import Form from './components/Form/Form.js';
 import useStyles from './styles'
 import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
-import {getPosts} from './actions/posts'; 
+import {getPosts} from './actions/posts';   
 
 const App = () => {
   const classes = useStyles();
